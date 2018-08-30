@@ -10,9 +10,15 @@ public class SpringbootAuthUpdatedApplication {
 
 	@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
+<<<<<<< HEAD
 		return new BCryptPasswordEncoder();
 	}
 	
+=======
+		return new BCryptPasswordEncoder;
+	}
+
+>>>>>>> 7238483... add ApplicationUserRepository with an on-disk DB
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootAuthUpdatedApplication.class, args);
 	}
