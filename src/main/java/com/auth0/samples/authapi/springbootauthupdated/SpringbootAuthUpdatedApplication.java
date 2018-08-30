@@ -10,7 +10,7 @@ public class SpringbootAuthUpdatedApplication {
 
 	@Bean
 	public BCryptPasswordEncoder bCryptPasswordEncoder() {
-		return new BCryptPasswordEncoder;
+		return new BCryptPasswordEncoder();
 	}
 
 	public static void main(String[] args) {
